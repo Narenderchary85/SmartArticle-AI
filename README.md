@@ -1,16 +1,68 @@
-# React + Vite
+<h2>Live Demo<h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Click here to view the live demo](https://smartarticle-ai-tpo8.onrender.com)
+  
+<h1>Home Page</h1>
 
-Currently, two official plugins are available:
+![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/Homepage.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Article Overview</h1>
 
-## React Compiler
+![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/ArticleOverview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<h1>References</h1>
 
-## Expanding the ESLint configuration
+![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/References.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h1>Backend API Call</h1>
+
+![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/GetApi.png)
+
+<h1>Backend API Call</h1>
+
+![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/GoogleScraper.png)
+
+## Installation and Setup
+
+### Backend Repository Setup
+
+1. **Clone the Backend Repository:**
+   ```bash
+   git clone https://github.com/Narenderchary85/SmartArticle-AI-Backend
+   
+2.  **Install Dependencies:**
+     ```bash
+      npm install
+
+3.  **Environment Variables Setup:**
+     ```bash
+      MONGO_URL=mongodb://localhost:27017/blogwave
+      FRONTEND_URL=your_frontend_link
+      GEMINI_API_KEY=your_gemini_api_key
+      SERPER_API_KEY=your_serper_api_key
+     
+4. **Start the Backend Server:**
+     ```bash
+          npm start
+          The backend will run on: http://localhost:1000
+
+### Frontend Repository Setup
+
+1. **Clone the Frontend Repository:**
+     ```bash
+      git clone https://github.com/Narenderchary85/SmartArticle-AI
+
+2. **Install Dependencies:**
+     ```bash
+        npm install
+        
+3. **3.	Environment Variables Setup:**
+     ```bash
+          VITE_API_URL=http://localhost:1000
+
+4. **Start the Frontend Development Server:**
+     ```bash
+          npm run dev
+          The frontend will run on http://localhost:5173
+
+
