@@ -7,13 +7,6 @@ const Layout = ({ children }) => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <motion.header 
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-200"
-      >
-    
-      </motion.header>
       <main className="container mx-auto px-4 py-8">
         {children}
       </main>
