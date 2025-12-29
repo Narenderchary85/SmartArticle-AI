@@ -58,7 +58,7 @@ const HomePage = () => {
         className="text-center pt-16"
       >
         <h1 className="text-4xl md:text-5xl font-semibold text-slate-900">
-          AI-Refined Knowledge Hub
+          SmartArticle-AI
         </h1>
         <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
           Original articles intelligently enhanced using insights from
