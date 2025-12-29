@@ -14,6 +14,10 @@
 
 ![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/References.png)
 
+<h1>System Architecture</h1>
+
+![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/Architecture.png)
+
 <h1>Backend API Call</h1>
 
 ![Alt Text](https://github.com/Narenderchary85/SmartArticle-AI/blob/main/public/GetApi.png)
